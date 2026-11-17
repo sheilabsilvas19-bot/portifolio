@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATOS</title>
+</head> <link rel="stylesheet" href="/styles.css/styles.css">
+<body>
+            <header>
+            <nav>
+                <ul><li> <a href="/index.html">Voltar</a></li>
+                    <li><a href="/sobre.html">Serviços</a></li></ul>
+        </nav>
+        </header>
+        <br><br><br>
+        <main>
+        <table>
+        <thead>
+            <tr>
+                <th>EMAIL:</th>
+                <th><a href="mailto:sheilabsilva250@gmail.com">Sheila silva</a></th>
+            </tr>
+            <tr>
+                <th>LINKEDIN:</th>
+                <th><a href="https://www.linkedin.com/in/sheila-b-da-silva-827160187">Linkdin</a></th>
+            </tr>
+            <tr>
+                <th>WHATSAPP:</th>
+                <th><a href="https://wa.me/qr/EU2FE43SHY2CD1">Sheila Silva</a></th>
+            </tr>
+            <tr>
+                <th>INSTAGRAM:</th>
+                <th><a href="https://www.instagram.com/sheilasilva.01?cplk=MXUydGx6b2o0MnNuNg==">sheilasilva.01</a></th>
+            </tr>
+        </thead>
+    </table>
+    <br><br><br>
+    <div class="caixa-cadastro">
+    <section>
+        <center><i><h2>Contato</h2></i></center>
+    <p>Preencha o formulário abaixo para entrar em contato.</p>
+
+        <!--ACTION: DEFINE PARA ONDE OS DADOS DO FORMULARIO VAI SER ENVIADO  (Destino dos dados)-->
+        <!--METHOD: DEFINE O FORMATO DO ENVIO -->
+
+    <form action="#" method="POST">
+    <fieldset> 
+        <!--A tag <fieldset> serve para agrupar campos 
+        relacionados dentro de um formulário, desenhando
+        por padrão uma caixa (borda) ao redor deles. Ela
+        organiza formulários longos em blocos lógicos e 
+        melhora a acessibilidade para pessoas que usam leitores de tela.-->
+<center>
+        <legend>Dados para Contato</legend>
+</center>
+        <br><br>
+        <div class="campo">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+<br>
+        <div class="campo">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+<br>
+        <div class="campo">
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+        <option value="" disabled selected>Selecione um motivo</option>
+        <option value="orcamento">Orçamento</option>
+        <option value="oportunidade">Oportunidade de Trabalho</option>
+        <option value="duvida">Dúvida Geral</option>
+        </select>
+        </div>
+<br>
+        <div class="campo">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </div>
+<br>
+        <div class="campo-checkbox">
+        <input type="checkbox" id="termos" name="termos" required>
+        <label for="termos">Concordo em compartilhar meus dados para retorno do contato.</label>
+        </div>
+<br>
+        <button class="button" type="submit">Enviar Mensagem</button>
+    </fieldset>
+    </form>
+</section>
+    </div>
+
+    </main>
+</body>
+</html>

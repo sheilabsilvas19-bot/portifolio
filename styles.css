@@ -1,0 +1,87 @@
+body{
+    background-color: aquamarine;
+}
+
+header{
+    color: blueviolet;
+    font-style: oblique;
+    font-size: 10;
+    list-style: none;
+}
+table{
+    background-color: rgb(120, 152, 240);
+    color: rgb(0, 0, 0);
+}
+.alinhamento{
+    justify-content: center;
+    text-decoration: none;
+    background-color: aqua;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 40;
+    list-style: none;
+    display: flex;    
+    gap: 15px;        
+    padding: 0;       
+    margin: 0
+}
+.menu{
+    text-decoration: none;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: initial;
+    font-style: italic;
+    font-weight: 40;
+    list-style: none;
+    gap: 15px;        
+    padding: 0;       
+    margin: 0
+}
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 50px;
+    width: 1000px;
+}
+.campo{
+    color: rgb(163, 134, 91);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.sobre-container {
+  display: flex;          /* Coloca a imagem e o texto lado a lado */
+  align-items: center;    /* Centraliza o texto verticalmente em relação à foto */
+  gap: 30px;              /* Cria um espaço entre a foto e o texto */
+}
+
+.caixa-cadastro{
+    background-color: rgb(58, 74, 128);
+    color: rgb(0, 0, 0);
+    width: 500px;
+}
+
+.campo-text {
+  margin-bottom: 15px;    /* Dá um respiro entre um parágrafo e outro */
+  line-height: 1.6;       /* Melhora a leitura das linhas */
+    text-align: justify;
+}
+.foto-perfil {
+     width: 100;           /* Mantém o tamanho que você escolheu */
+    background-color: #ffffff; /* Cor do fundo interno (passe-partout) */
+padding: 10px;             /* Espaço entre a foto e a borda */
+border: 10px solid #8b5a2b;/* Moldura externa (cor de madeira) */
+box-shadow: 0 4px 10px ; /* Sombra para dar profundidade 
+
+     width: 100;           /* Mantém o tamanho que você escolheu */
+  border-radius: 10px;    /* Opcional: arredonda levemente os cantos da foto */
+  object-fit: cover;      /* Evita que a imagem fique distorcida */
+}
+
+.centralizar{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
