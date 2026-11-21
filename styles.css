@@ -81,7 +81,17 @@ box-shadow: 0 4px 10px ; /* Sombra para dar profundidade
 }
 
 .centralizar{
-    width: 300px;
-    margin: 0 auto;
+
+    width: 1000px;
+    margin: 80px auto;
     text-align: center;
+    display: flex;
+  gap: 50px; /* Espaço entre os textos */
+  align-items: center; /* Alinha verticalmente no centro */
+}
+.caixa{
+    background-image: url("/assents/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
